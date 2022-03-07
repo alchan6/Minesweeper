@@ -167,7 +167,7 @@ public class MSButton
         else 
             fill( 100 );
         rect(x, y, width, height);
-        fill(0);
+        fill(255);
         textSize(25);
         text(myLabel,x+width/2,y+height/2);
     }
